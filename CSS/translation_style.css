@@ -1,0 +1,206 @@
+a
+{
+    text-decoration: none;
+}
+
+.wrapper
+{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+header
+{
+    width: 1540px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header .index_title
+{
+    float: left;
+    line-height: 50px;
+    color: rgb(176, 176, 176);
+}
+
+header .login
+{
+    float: right;
+}
+
+header .login a
+{
+    line-height: 50px;
+    color: rgb(176, 176, 176);
+}
+
+header .login a:hover
+{
+    color: white;
+}
+
+main .logo_bar
+{
+    margin: 0 auto;
+    width: 1540px;
+    height: 125px;
+}
+
+        /* 设置图片格式 */
+main .logo_bar .logo
+{
+    float: left;
+    height: 80px;
+    margin: 22px 0 22px 0;
+}
+
+/* content格式 */
+.content
+{
+    width: 100%;
+}
+
+.title_image
+{
+    width: 1540px;
+    margin: 0 auto;
+}
+
+.title_image img
+{
+    margin: 0 150px 0 150px;
+}
+
+.background_gray
+{
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.width_restrict
+{
+    width: 1540px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.most_popular
+{
+    margin-top: 30px;
+}
+
+.most_popular h2
+{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.most_popular ul
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1540px;
+}
+
+.most_popular ul::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.most_popular ul li
+{
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 350px;
+}
+
+.most_popular ul li:first-child
+{
+    margin-left: 36px;
+}
+
+.most_popular ul li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.most_popular ul li:hover
+{
+    box-shadow: 0 5px 10px rgba(0, 0, 0 ,.5);
+}
+
+.most_popular ul li a img
+{
+    width: 320px;
+    height: 190px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+.most_popular ul li a span
+{
+    font-size: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 75px;
+    color: black;
+}
+
+.curriculum h2
+{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.best_selected
+{
+    background-color: burlywood;
+}
+
+.best_selected h3
+{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+
+
+
+.best_selected ul li
+{
+    float: left;
+}
+
+.best_selected ul li a
+{
+    display: block;
+}
+
+.best_selected ul li a img
+{
+    width: 360px;
+    height: 220px;
+}
+
+.help
+{
+    margin-top: 50px;
+    background-color: chocolate;
+}
+
+.purchase
+{
+    background-color: cornflowerblue;
+}

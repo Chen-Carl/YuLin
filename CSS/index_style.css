@@ -198,6 +198,7 @@ main .logo_bar .logo
 
 .name_model
 {
+    display: block;
     height: 83px;
     width: 290px;
 }
