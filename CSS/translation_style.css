@@ -164,10 +164,6 @@ main .logo_bar .logo
     margin-bottom: 20px;
 }
 
-.best_selected
-{
-    background-color: burlywood;
-}
 
 .best_selected h3
 {
@@ -202,5 +198,18 @@ main .logo_bar .logo
 
 .purchase
 {
-    background-color: cornflowerblue;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 350px;
+}
+
+.help div::after
+{
+    content: "";
+    display: block;
+    clear: both;
 }
