@@ -1,0 +1,65 @@
+{
+  "id": "1979601",
+  "name": "语林",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8106219",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "8106248",
+      "name": "selection",
+      "font_class": "selection",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "8106272",
+      "name": "next",
+      "font_class": "next",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "10678423",
+      "name": "calling robort",
+      "font_class": "callingrobort",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "10678432",
+      "name": "group ctrl",
+      "font_class": "groupctrl",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "10678434",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "10678444",
+      "name": "suggestion",
+      "font_class": "suggestion",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "12865678",
+      "name": "hot",
+      "font_class": "hot",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    }
+  ]
+}
