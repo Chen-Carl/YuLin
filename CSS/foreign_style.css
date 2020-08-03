@@ -3,12 +3,14 @@ a
     text-decoration: none;
 }
 
-.clearfix::before,
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
-}
+        .clearfix::before,
+        .clearfix::after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+/* header style */
 
 .wrapper
 {
@@ -21,6 +23,7 @@ header
     width: 1540px;
     height: 50px;
     margin: 0 auto;
+    background-color: rgb(51, 51, 51);
 }
 
 header .index_title
@@ -56,6 +59,9 @@ header .login a:hover
     color: white;
 }
 
+/* main style */
+
+    /* logo_bar */
 main .logo_bar
 {
     margin: 0 auto;
@@ -70,6 +76,65 @@ main .logo_bar .logo
     height: 80px;
     margin: 22px 0 22px 0;
 }
+
+.search_wrapper
+{
+    width: 295px;
+    height: 50px;
+    margin: 35px 0;
+    float: right;
+    border: none;
+}
+
+.search_wrapper .search_input
+{
+    float: left;
+    border: solid rgb(224, 224, 224) 1px;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 48px;
+    margin-right: -1px;
+    width: 222px;
+}
+
+.search_wrapper .search_button
+{
+    float: left;
+    border: solid rgb(224, 224, 224) 1px;
+    height: 50px;
+    width: 52px;
+}
+
+.search_wrapper .search_button:hover
+{
+    background-color: #ff6700;
+}
+
+.search_wrapper .search_button:hover i
+{
+    color: white;
+}
+
+.search_button i
+{
+    font-size: 30px;
+}
+
+.search_wrapper .search_input:hover,
+.search_wrapper .search_input:hover + button
+{
+    border: solid rgb(176, 176, 176) 1px;
+}
+
+.search_wrapper .search_input:focus,
+.search_wrapper .search_input:focus + button
+{
+    border: solid #ff6700 1px;
+}
+
+
+
+
 
 /* content格式 */
 .content
@@ -113,6 +178,16 @@ main .logo_bar .logo
     font-family: "微软雅黑";
     font-size: 26px;
     font-weight: normal;
+}
+
+.most_popular h2 a
+{
+    color: black;
+}
+
+.most_popular h2 a:hover
+{
+    color: rgb(179, 0, 0);
 }
 
 .most_popular ul
@@ -325,4 +400,23 @@ footer
     color: rgb(176, 176, 176);
     margin: 0 auto;
     line-height: 60px;
+}
+
+
+/* 多语种网页 */
+.width_restrict ul li h3
+{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.width_restrict ul li div
+{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding-left: 50px;
+    color: rgb(59, 59, 59);
 }
