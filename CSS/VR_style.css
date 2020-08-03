@@ -1,0 +1,323 @@
+a
+{
+    text-decoration: none;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper
+{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+header
+{
+    width: 1540px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header .index_title
+{
+    float: left;
+    line-height: 50px;
+    color: rgb(176, 176, 176);
+}
+
+header .index_title a
+{
+    color: rgb(176, 176, 176);
+}
+
+header .index_title a:hover
+{
+    color: red;
+}
+
+header .login
+{
+    float: right;
+}
+
+header .login a
+{
+    line-height: 50px;
+    color: rgb(176, 176, 176);
+}
+
+header .login a:hover
+{
+    color: white;
+}
+
+main .logo_bar
+{
+    margin: 0 auto;
+    width: 1540px;
+    height: 125px;
+}
+
+  /* 设置搜索框的容器格式 */
+  .search_wrapper
+  {
+      width: 295px;
+      height: 50px;
+      margin: 35px 0;
+      float: right;
+      border: none;
+  }
+  
+  .search_wrapper .search_input
+  {
+      float: left;
+      border: solid rgb(224, 224, 224) 1px;
+      padding: 0 10px;
+      font-size: 16px;
+      height: 48px;
+      margin-right: -1px;
+      width: 222px;
+  }
+  
+  .search_wrapper .search_button
+  {
+      float: left;
+      border: solid rgb(224, 224, 224) 1px;
+      height: 50px;
+      width: 52px;
+  }
+  
+  .search_wrapper .search_button:hover
+  {
+      background-color: #ff6700;
+  }
+  
+  .search_wrapper .search_button:hover i
+  {
+      color: white;
+  }
+  
+  .search_button i
+  {
+      font-size: 30px;
+  }
+  
+  .search_wrapper .search_input:hover,
+  .search_wrapper .search_input:hover + button
+  {
+      border: solid rgb(176, 176, 176) 1px;
+  }
+  
+  .search_wrapper .search_input:focus,
+  .search_wrapper .search_input:focus + button
+  {
+      border: solid #ff6700 1px;
+  }
+
+        /* 设置图片格式 */
+main .logo_bar .logo
+{
+    float: left;
+    height: 80px;
+    margin: 22px 0 22px 0;
+}
+
+/* content格式 */
+.content
+{
+    width: 100%;
+}
+
+.title_image
+{
+    width: 1540px;
+    margin: 0 auto;
+}
+
+.title_image img
+{
+    margin: 0 150px 0 150px;
+}
+
+.background_gray
+{
+    margin-top: 30px;
+    padding-bottom: 200px;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.width_restrict
+{
+    width: 1540px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.most_popular
+{
+    margin-top: 30px;
+}
+
+.most_popular h2:nth-child(1)
+{
+    margin-bottom: 30px;
+}
+
+.most_popular h2
+{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.most_popular ul
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1540px;
+}
+
+.most_popular ul::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.most_popular ul li
+{
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 350px;
+}
+
+.most_popular ul li:first-child
+{
+    margin-left: 36px;
+}
+
+.most_popular ul li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.most_popular ul li:hover
+{
+    box-shadow: 0 5px 10px rgba(0, 0, 0 ,.5);
+}
+
+.most_popular ul li a img
+{
+    width: 320px;
+    height: 190px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+.most_popular ul li a span
+{
+    font-size: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 75px;
+    color: black;
+}
+
+.curriculum h2
+{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.blank h2
+{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+
+.test
+{
+    float: left;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.test:first-child
+{
+    margin-left: 36px;
+}
+
+.test h3
+{
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 110px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.test ul li
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 13px;
+    margin-top: 4px;
+    padding-left: 20px;
+}
+
+.test ul li:last-child
+{
+    margin-bottom: 25px;
+}
+
+/* footer页脚 */
+footer
+{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+.footer_wrapper
+{
+    width: 1540px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgb(51, 51, 51);
+}
+
+.footer_title
+{
+    float: left;
+    line-height: 60px;
+    color: rgb(176, 176, 176);
+}
+
+.copyright
+{
+    float: right;
+    color: rgb(176, 176, 176);
+    margin: 0 auto;
+    line-height: 60px;
+}
