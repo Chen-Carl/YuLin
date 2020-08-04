@@ -160,7 +160,6 @@ main .logo_bar .logo
 {
     width: 1540px;
     height: 600px;
-    background-color: skyblue;
     margin: 0 auto;
 }
 
@@ -253,7 +252,7 @@ main .logo_bar .logo
 .img-list
 {
     position: relative;
-    margin: 0 auto;
+    margin-left: 50px;
     width: 1000px;
     height: 600px;
 }
