@@ -104,6 +104,11 @@ main .logo_bar .logo
     margin: 0 auto;
 }
 
+.left
+{
+    float: left;
+}
+
 .left div img
 {
     width: 290px;
@@ -121,8 +126,10 @@ main .logo_bar .logo
     margin-bottom: 20px;
 }
 
-#edit
+.edit
 {
+    display: block;
+    margin-top: 20px;
     margin-left: 20px;
     width: 290px;
     height: 40px;
@@ -132,13 +139,13 @@ main .logo_bar .logo
     border-radius: 10px;
 }
 
-#edit span
+.edit span
 {
     font-size: 20px;
     font-weight: 5;
 }
 
-#edit:hover
+.edit:hover
 {
     background-color: rgb(243, 244, 246);
 }
@@ -152,4 +159,69 @@ main .logo_bar .logo
 .personal_info ul li
 {
     font-size: 18px;
+}
+
+.right
+{
+    float: left;
+}
+
+.right ul
+{
+    background-color: rgb(249, 249, 249);
+}
+
+.right div
+{
+    width: 1208px;
+    height: 500px;
+}
+
+.right div img
+{
+    width: 1208px;
+    height: 500px;
+}
+
+.right ul
+{
+    height: 600px;
+    width: 1208px;
+}
+
+
+.right ul li
+{
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: rgb(95, 87, 80);
+    border-radius: 5%;
+}
+
+.right ul li a
+{
+    color: rgb(207, 205, 202);
+    display: block;
+    width: 260px;
+    height: 170px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.right ul li a:hover
+{
+    color: white;
+}
+
+.right ul li a i
+{
+    margin-left: 80px;
+    font-size: 90px;
+}
+
+.right ul li a span
+{
+    display: block;
+    margin-left: 50px;
 }
